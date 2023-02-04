@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+/*font-family: 'Manrope', sans-serif;*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.image {
+    width: 300px;
+    height: 240px;
+}
+.card {
+    overflow: hidden;
+    margin-top: 60px;
+    width: 330px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.image-card {
+   width: 330px;
+   height: 190px;
+   border-radius: 20px 20px 0px 0px;
+   background-image: url(images/drawers.jpg);
+   background-position: center;
+   background-size: cover;
+   margin-bottom: 10px;
+}
+
+.publication {
+    padding: 20px;
+}
+
+.publication h2 {
+    font-size: 18px;
+    line-height: 25px;
+    color: hsl(217, 19%, 35%);
+    margin-bottom: 15px;
+}
+
+.publication p {
+    color: hsl(214, 17%, 51%);
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.user {
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+.image-profile {
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+}
+
+.information-user{
+    padding-right: 65px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-user strong {
+    font-size: 14px;
+    color: hsl(217, 19%, 35%);
+}
+
+.information-user span {
+    font-size: 12px;
+    color: hsl(214, 17%, 51%);
+}
+
+.button-icon {
+    width: 15px;
+}
+
+.button-share {
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    border-style: none;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.share {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(217, 19%, 35%);
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+.icons-share{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.share h4 {
+    font-weight: 500;
+    color: hsl(214, 17%, 51%);
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+.share .icon {
+    min-width: 20px;
+}
+
+.disable {
+    display: none;
+}
