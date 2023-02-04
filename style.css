@@ -100,7 +100,18 @@ body, html {
     width: 15px;
 }
 
-.button-share {
+.button-sh{
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    border-style: none;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.button-share{
     min-width: 30px;
     min-height: 30px;
     max-width: 30px;
@@ -141,6 +152,15 @@ body, html {
 
 .share .icon {
     min-width: 20px;
+}
+
+.active {
+    background-color: #6d7f97;
+    
+}
+
+.active img {
+    filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(347deg) brightness(300%) contrast(101%);
 }
 
 .disable {
